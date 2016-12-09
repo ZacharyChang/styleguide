@@ -2627,16 +2627,11 @@ Tree.prototype.selectNode = function (id) {
 #### 4.1.1 AMD
 
 
-##### [强制] 使用 `AMD` 作为模块定义。
+##### [建议] 使用 `AMD` 作为模块定义。
 
 解释：
 
 AMD 作为由社区认可的模块定义形式，提供多种重载提供灵活的使用方式，并且绝大多数优秀的 Library 都支持 AMD，适合作为规范。
-
-目前，比较成熟的 AMD Loader 有：
-
-- 官方实现的 [requirejs](http://requirejs.org/)
-- 百度自己实现的 [esl](https://github.com/ecomfe/esl)
 
 
 ##### [强制] 模块 `id` 必须符合标准。
